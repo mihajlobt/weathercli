@@ -11,7 +11,7 @@ export default {
     zipcode: {
         alias: 'z',
         type: 'array',
-        describe: 'Zipcode and country code flag'
+        describe: 'Zipcode and country code flag separated by space (ex: 7000 MK)'
     },
     latest: {
         alias: 'l',
