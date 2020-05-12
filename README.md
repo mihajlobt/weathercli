@@ -49,7 +49,8 @@ __Config example - Single Location__
       --city, -c                City name
       --units, -u               Units by which temperature is displayed
                                         [choices: "f", "c", "celsius", "fahrenheit"]
-      --zipcode, -z             Zipcode and country code flag                [array]
+      --zipcode, -z             Zipcode and country code Zipcode and country code
+                        flag separated by space (ex: 7000 MK)                [array]
       --latest, -l              Fetch the latest weather query             [boolean]
       --geolocation, -g, --geo  Use geolocation to auto-configure and display the
                                 weather.                  [boolean] [default: false]
