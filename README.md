@@ -32,7 +32,7 @@ __Config example - Single Location__
 
     {"zipcode":"1000","units":"celsius","city":"skopje","country":"mk","defaultQuery":{"zipcode":false,"city":true}} 
     
-__Config example - Single Location__
+__Config example - Multiple Locations__
     
     [
           {"zipcode":"1000","units":"c","city":"Skopje","country":"MK","defaultQuery":{"zipcode":false,"city":true}},
