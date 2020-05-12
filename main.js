@@ -72,6 +72,9 @@ const app = yargs
                     console.log(chalk.green.bgBlack(`\nDisplaying weather for ${locationList.length} cities`));
                     for (let i = 0; i < locationList.length; i++) {
                         await getByZipcode(locationList[i]);
+                        if (i === 9) {
+                            break;
+                        }
                     }
                 } else {
                     await getByZipcode(argv);
