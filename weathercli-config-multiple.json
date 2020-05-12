@@ -1,0 +1,4 @@
+[
+  {"zipcode":"1000","units":"c","city":"Skopje","country":"MK","defaultQuery":{"zipcode":false,"city":true}},
+  {"zipcode":"7000","units":"f","city":"Bitola","country":"MK","defaultQuery":{"zipcode":false,"city":true}}
+]

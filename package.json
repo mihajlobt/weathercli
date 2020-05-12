@@ -1,0 +1,30 @@
+{
+  "name": "weathercli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "weathercli": "./index.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "flags": "--help",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mihajlo Miskarovski",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "esm": "^3.2.25",
+    "got": "^11.1.2",
+    "inquirer": "^7.1.0",
+    "yargs": "^15.3.1"
+  }
+}
