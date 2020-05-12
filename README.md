@@ -15,7 +15,7 @@
     git clone repository
     yarn install in repository root
     
-    open 'weathercli-config.json' and enter your OpenWeather API Key
+    open './utils/defaultConfig.js' and enter your OpenWeather API Key
     
     run npm link
     
