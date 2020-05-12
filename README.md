@@ -22,9 +22,12 @@
 
 #### How to Use
     weathercli [flags]
-    to list all flags - weathercli --help
-    import a config with one or multiple locations - weathercli --import ./path-to-file
     
+##### Flags help - to list all flags and get help
+    weathercli --help
+    
+##### import a config with one or multiple locations 
+    weathercli --import ./path-to-file    
 __Config example - Single Location__
 
     {"zipcode":"1000","units":"celsius","city":"skopje","country":"mk","defaultQuery":{"zipcode":false,"city":true}} 
